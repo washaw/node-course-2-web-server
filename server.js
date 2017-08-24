@@ -38,7 +38,7 @@ hbs.registerHelper('screamIt', (text) => {
 
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        userName: require("os").userInfo().username
+        userName: 'Any one'
     });
 });
 
